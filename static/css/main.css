@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* Ensure you have styles for the table */
+table {
+  width: 100%;
+  border-collapse:collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Centering the form using flexbox */
+.form {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+
+}
